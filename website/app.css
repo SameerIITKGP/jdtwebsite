@@ -1,0 +1,44 @@
+body,html {
+  background-color: #E5E5E5;
+  font-family: 'RobotoDraft', sans-serif;
+  height: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+/* Add your styles here! */
+
+@media (min-width: 481px) {
+	.container {
+		width: 600px;
+	}
+	[main]{
+		background-color: #F2F1DC;
+	}
+	[drawer]{
+		background-color: #F2F1DC;
+	}
+	core-toolbar{
+		background-color: #04738C;
+	}
+	core-menu core-item{
+		background-color: #04738C;
+		border: 1px solid #F2F1DC;
+	}
+	.footer{
+		background-color: #04738C;
+		position: absolute;
+		width: 100%;
+		height: 20%;
+	}
+	.content {
+		min-height: 80%;
+		height: auto !important;
+		height: 80%;
+	}
+
+}
